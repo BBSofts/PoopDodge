@@ -1,0 +1,12 @@
+{
+  "appId": "com.banbitsoft.poopdodge",
+  "appName": "PoopDodge",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#FFFFFF"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

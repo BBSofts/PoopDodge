@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Android build artifacts
+android/.gradle/
+android/app/build/
+android/build/
+android/app/src/main/assets/public/
+android/capacitor-cordova-android-plugins/build/
+
+# IDE
+.idea/
+*.iml
+
+# Agent
+.agent/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary/generated assets
+stickman_frames/
+stickman_run_8frames_tight/
+stickman_run_8frames_unified_bg/

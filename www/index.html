@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>똥 피하기 게임</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-layer">
+            <div id="score-board">점수: <span id="score">0</span></div>
+            <div id="start-screen" class="screen">
+                <h1 class="game-title">똥 피하기</h1>
+                <img src="Assets/ait_logo.png" alt="Game Logo" class="logo-img">
+                <p>좌우 방향키 또는 화면 터치로 이동!</p>
+                <p class="tap-hint">화면을 터치하여 시작</p>
+            </div>
+            <div id="game-over-screen" class="screen hidden">
+                <h1>게임 오버!</h1>
+                <p>최종 점수: <span id="final-score">0</span></p>
+                <p class="tap-hint">화면을 터치하여 다시 시작</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
